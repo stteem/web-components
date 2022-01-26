@@ -83,4 +83,6 @@ To use it in a plain HTML app, include all built JavaScript files in script tags
 
 ```
 
+Effect pull request, please ignore.
+
 
