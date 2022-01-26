@@ -63,6 +63,7 @@ To use the built web component in a basic web page, copy all the built files to 
 
 To use it in a plain HTML app, include all built JavaScript files in script tags and then use the component as shown in example below:
 
+```
 <html>
   <head>
     <script src="./built-files/polyfills.js"></script>
@@ -75,5 +76,7 @@ To use it in a plain HTML app, include all built JavaScript files in script tags
     <hello-world></hello-world>
   </body>
 </html>
+
+```
 
 
