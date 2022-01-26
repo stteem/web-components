@@ -14,7 +14,9 @@ Next, create an Angular component which will become a Web Component; inside our 
 
 Make Angular understand that we don’t want it to treat this component as a common Angular component, but rather as something different. This is done in the module bootstrapping level — to do that, implement the `ngDoBootstrap` method in `AppModule` and tell the module to define a custom element. For that we are going to use the createCustomElement function from the `@angular/elements` package.
 
-`import { BrowserModule } from '@angular/platform-browser';
+```
+
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, DoBootstrap, Injector, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
@@ -40,7 +42,9 @@ export class AppModule implements DoBootstrap {
   }
 
   ngDoBootstrap() {}
-}`
+}
+
+```
 
 We have done the following in the code above:
 
