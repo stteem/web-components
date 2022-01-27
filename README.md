@@ -78,6 +78,7 @@ To use it in a plain HTML app, include all built JavaScript files in script tags
 
   <body>
     <hello-world></hello-world>
+    <p>Lorem ipsum</p>
   </body>
 </html>
 
