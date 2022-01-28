@@ -6,9 +6,9 @@ const test2 = () => {
     return "test 2"
 }
 
-
-
-
+const test3 = () => {
+    return "test 3"
+}
 
 const test4 = () => {
     return "test 4"
