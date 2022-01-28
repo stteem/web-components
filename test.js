@@ -13,3 +13,7 @@ const test3 = () => {
 const test4 = () => {
     return "test 4"
 }
+
+const test5 = () => {
+    return "test 5"
+}
