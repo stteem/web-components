@@ -5,3 +5,7 @@ const test = function(){
 const test2 = () => {
     return "test 2"
 }
+
+const test3 = () => {
+    return "test 3"
+}
